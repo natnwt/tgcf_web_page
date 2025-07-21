@@ -20,9 +20,9 @@ const bgImage = document.querySelector(".bg_header_pic");
 
 function updateBgImage() {
   if (window.innerWidth <= 400) {
-    bgImage.src = "/images/background_pic_header_mobile.jpg";
+    bgImage.src = "./images/background_pic_header_mobile.jpg";
   } else {
-    bgImage.src = "/images/background_pic_header.jpg";
+    bgImage.src = "./images/background_pic_header.jpg";
   }
 }
 

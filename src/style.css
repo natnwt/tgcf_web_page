@@ -97,9 +97,6 @@ main{
   z-index: 2;
   --parallax-speed: -5;
 }
-.smudge_header_pic{
-  z-index: 3;
-}
 .quote{
   --parallax-speed: 5;
   position: absolute;
